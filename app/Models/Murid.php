@@ -12,13 +12,13 @@ class Murid extends Model
     protected $fillable = [
         'nis',
         'nama_murid',
-        'kelas',
+        'kelas_id',
         'gender',
         'tanggal_lahir',
         'alamat',
         'nomor_telp',
     ];
     public function kelas(){
-       return $this->belongsTo(Kelas::class, 'kelas','id');
+       return $this->belongsTo(Kelas::class);
     }
 }

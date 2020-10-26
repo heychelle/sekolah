@@ -16,6 +16,6 @@ class Kelas extends Model
     ];
 
     public function murids(){
-        return $this->hasMany(Murid::class, 'kelas','id');
+        return $this->hasMany(Murid::class);
     }
 }

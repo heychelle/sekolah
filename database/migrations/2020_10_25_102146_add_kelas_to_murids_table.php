@@ -15,9 +15,9 @@ class AddKelasToMuridsTable extends Migration
     {
         Schema::table('murids', function (Blueprint $table) {
             //
-            $table->unsignedBigInteger('kelas')->index()->after('nama_murid');
+            $table->unsignedBigInteger('kelas_id')->index()->after('nama_murid');
 
-            $table->foreign('kelas')->references('id')->on('kelas');
+            $table->foreign('kelas_id')->references('id')->on('kelas')->onDelete('cascade');
         });
     }
 
@@ -30,7 +30,7 @@ class AddKelasToMuridsTable extends Migration
     {
         Schema::table('murids', function (Blueprint $table) {
             //
-            $table->dropColumn('kelas');
+            $table->dropColumn('kelas_id');
         });
     }
 }

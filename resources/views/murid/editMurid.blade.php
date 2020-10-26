@@ -20,15 +20,15 @@
                     </div>
                     <div class="form-group">
                         <label>Kelas:</label>
-                        <select name="kelas" class="custom-select">
+                        <select name="kelas_id" class="custom-select">
                             @foreach ($mkelas as $kelas)
 
                                 @if ($murid->kelas == $kelas->kelas)
                                     <option value="{{ $kelas->id }}" selected>
-                                        {{ $kelas->kelas . '(' . $kelas->jurusan_kelas . ')' }}
+                                        {{ $kelas->kelas . ' (' . $kelas->jurusan_kelas . ')' }}
                                     </option>
                                 @else
-                                    <option value="{{ $kelas->id }}">{{ $kelas->kelas . '(' . $kelas->jurusan_kelas . ')' }}
+                                    <option value="{{ $kelas->id }}">{{ $kelas->kelas . ' (' . $kelas->jurusan_kelas . ')' }}
                                     </option>
                                     
                                 @endif

@@ -41,7 +41,7 @@ class MuridController extends Controller
         $data = $request->validate([
             'nis'=>'required|unique:murids',
             'nama_murid'=>'required|string',
-            'kelas'=>'required|string',
+            'kelas_id'=>'required|string',
             'gender'=>'required|string',
             'tanggal_lahir'=>'required|date',
             'alamat'=>'required|string',
@@ -51,7 +51,7 @@ class MuridController extends Controller
         Murid::create([
             'nis'=>$data['nis'],
             'nama_murid'=>$data['nama_murid'],
-            'kelas'=>$data['kelas'],
+            'kelas_id'=>$data['kelas_id'],
             'gender'=>$data['gender'],
             'tanggal_lahir'=>$data['tanggal_lahir'],
             'alamat'=>$data['alamat'],

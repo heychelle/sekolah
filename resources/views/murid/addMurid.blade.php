@@ -20,9 +20,9 @@
                     </div>
                     <div class="form-group">
                         <label>Kelas:</label>
-                        <select name="kelas" class="custom-select">
+                        <select name="kelas_id" class="custom-select">
                             @foreach ($mkelas as $kelas)
-                                <option value="{{ $kelas->id }}" required>{{ $kelas->kelas . '(' . $kelas->jurusan_kelas . ')' }} </option>
+                                <option value="{{ $kelas->id }}" required>{{ $kelas->kelas . ' (' . $kelas->jurusan_kelas . ')' }} </option>
                             @endforeach
                         </select>
                     </div>

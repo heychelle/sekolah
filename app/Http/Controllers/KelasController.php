@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Kelas;
+use App\Models\Murid;
 use Illuminate\Http\Request;
 
 class KelasController extends Controller
@@ -96,6 +97,7 @@ class KelasController extends Controller
      */
     public function destroy(Kelas $kela)
     {
+        
         $kela->delete();
         return redirect()->back();
     }

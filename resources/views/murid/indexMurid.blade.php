@@ -18,6 +18,7 @@
                         <tr>
                             <th scope="col">NIS</th>
                             <th scope="col">Nama Murid</th>
+                            <th scope="col">Kelas</th>
                             <th scope="col">Gender</th>
                             <th scope="col">Tanggal Lahir</th>
                             <th scope="col">Alamat</th>
@@ -31,6 +32,7 @@
                             <tr>
                                 <td>{{ $murid->nis }} </a></td>
                                 <td>{{ $murid->nama_murid }}</td>
+                                <td>{{ $murid->kelas->kelas . ' ('.$murid->kelas->jurusan_kelas . ')'}}</td>
                                 <td>{{ $murid->gender }}</td>
                                 <td>{{ $murid->tanggal_lahir }} </a></td>
                                 <td>{{ $murid->alamat }}</td>

@@ -35,15 +35,15 @@
                         </select>
                         {{-- @foreach ($kela as $kelas)
                             --}}
-                            {{-- @if ($kelas->jurusan_kelas == $kelas->jurusan_kelas) --}}
-                                {{-- <option value="{{ $kelas->id }}" selected>
-                                    {{ $kelas->jurusan_kelas }} </option> --}}
-                                {{-- @else --}}
-                                {{-- <option value="{{ $kelas->id }}">
-                                    {{ $kelas->jurusan_kelas }}</option> --}}
-                                {{-- @endif --}}
-                            {{-- @endforeach
-                        --}}
+                        {{-- @if ($kelas->jurusan_kelas == $kelas->jurusan_kelas) --}}
+                        {{-- <option value="{{ $kelas->id }}" selected>
+                            {{ $kelas->jurusan_kelas }} </option> --}}
+                        {{-- @else --}}
+                        {{-- <option value="{{ $kelas->id }}">
+                            {{ $kelas->jurusan_kelas }}</option> --}}
+                        {{-- @endif --}}
+                        {{-- @endforeach
+                    --}}
                     </div>
                     <div class="form-group ">
                         <label>Wali Kelas:</label>
