@@ -27,3 +27,7 @@ Route::get('/list', [PageController::class, 'index']);
 
 Route::resource('kelas', KelasController::class);
 Route::resource('murid', MuridController::class);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
