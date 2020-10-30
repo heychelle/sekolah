@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Murid;
+use App\Models\Kelas;
 
 class HomeController extends Controller
 {
@@ -23,6 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $murids = Murid::all();
+        $mkelas = Kelas::all();
+        return view('list.index', compact('murids','mkelas'));
     }
 }

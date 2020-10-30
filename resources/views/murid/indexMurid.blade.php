@@ -29,10 +29,10 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="nav navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item"><a class="nav-link active" href="/"><i class="fas fa-tachometer-alt"
+                    <li class="nav-item"><a class="nav-link" href="/"><i class="fas fa-tachometer-alt"
                                 style="color: rgb(85,86,88);font-size: 17px;"></i><span
                                 style="font-size: 17px;color: rgb(85,86,88);padding-left: 0px;">Kelas</span></a></li>
-                    <li class="nav-item" style="font-size: 17px;"><a class="nav-link" href="/murid"
+                    <li class="nav-item" style="font-size: 17px;"><a class="nav-link active" href="/murid"
                             style="font-size: 17px;color: #555658;"><i class="fas fa-user"
                                 style="font-size: 17px;color: #555658;"></i><span
                                 style="font-size: 17px;color: #555658;padding-left: 0px;">Murid</span></a></li>

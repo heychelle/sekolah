@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382ceade-66c5-4408-8497-f33f826127c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/KelasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/KelasController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MuridController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MuridController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Kelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Kelas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Murid.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Murid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_25_102146_add_kelas_to_murids_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_25_102146_add_kelas_to_murids_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/kelas/editKelas.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kelas/editKelas.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/murid/addMurid.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/murid/addMurid.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/murid/editMurid.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/murid/editMurid.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/murid/indexMurid.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/murid/indexMurid.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sekolah.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sekolah.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +139,7 @@
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jOsNwdFZyj9Fn32AfHcpyUTFmY" />
@@ -151,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guestbook" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -172,6 +171,7 @@
       <updated>1603686436682</updated>
       <workItem from="1603686438381" duration="140000" />
       <workItem from="1603686586830" duration="1814000" />
+      <workItem from="1604020345226" duration="50000" />
     </task>
     <servers />
   </component>
@@ -179,10 +179,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1603687185641">
+    <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1604020372183">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603687185641" />
+    <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1604020372183" />
     <state x="277" y="77" key="SettingsEditor" timestamp="1603687341302">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
