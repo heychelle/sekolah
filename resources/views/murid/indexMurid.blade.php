@@ -41,12 +41,28 @@
                                         <td style="text-align: center;">{{ $murid->nomor_telp }}</td>
                                         <td style="text-align: center;">
                                             @auth
-                                            <form action="{{ route('murid.destroy', $murid) }}" method="post">
-                                                @csrf
-                                                <input type="hidden" name="_method" value="DELETE">
-                                                <button class="btn btn-primary" type="submit"
-                                                    style="background: rgb(234, 83, 83);">Delete</button>
-                                            </form>
+                                            <div><a class="btn btn-primary" type="submit" style="background: rgb(234, 83, 83);" role="button" data-toggle="modal" href="#myModal">Delete</a>
+                                                <div class="modal fade" role="dialog" tabindex="-1" id="myModal">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h4 style="color: rgb(85,86,88);">Warning</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                                                            <div class="modal-body">
+                                                                <p class="text-center text-muted">Apa anda yakin untuk menghapus data murid ini? </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button class="btn btn-light" data-dismiss="modal" type="button">Tidak</button>
+                                                                <form action="{{ route('murid.destroy', $murid) }}" method="post">
+                                                                    @csrf
+                                                                    <input type="hidden" name="_method" value="DELETE">
+                                                                    <button class="btn btn-primary" type="submit" style="background: rgb(251,199,193); color: rgb(85,86,88);">Iya</button>
+                                                                </form>
+                                                                <!-- <button class="btn btn-primary" style="background: rgb(251,199,193);color: rgb(85,86,88);" type="button">Iya</button> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             @endauth
                                         </td>
                                         <td style="text-align: center;">
