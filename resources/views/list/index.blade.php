@@ -33,7 +33,7 @@
             <div id="content">
                 <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
                     <div class="container-fluid">
-                        <h4 style="font-size: 25px;color: rgb(85,86,88);">Welcome Admin</h4>
+                        @auth<h4  style="font-size: 25px;color: rgb(85,86,88); ">Welcome Admin</h4>@endauth
                         <ul class="nav navbar-nav flex-nowrap ml-auto">
                             <ul class="navbar-nav ml-auto">
                                 <!-- Authentication Links -->
@@ -41,7 +41,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{ route('login') }}">
                                             <button class="btn btn-primary" type="button"
-                                                style="background: rgb(251,199,193);color: rgb(85,86,88);">Log
+                                                style="background: rgb(251,199,193);color: rgb(85,86,88); ">Log
                                                 In</button></a>
                                     </li>
                                     @if (Route::has('register'))
@@ -80,7 +80,7 @@
                         </ul>
                     </div>
                 </nav>
-                <p style="padding: 4px;margin: 20px;">In this page you can see Murid and Kelas List :)</p><span style="font-size: 28px;margin: 24px;">List Kelas</span>
+                <p @auth style="padding: 4px;margin: 20px;">In this page you can see Murid and Kelas List :)</p> @endauth <span style="font-size: 28px;margin: 24px;">List Kelas dan Murid</span>
                 <div class="btn-group" role="group"></div>
                 <div class="container-fluid" style="margin-top: 25px;">
                     <div class="table-responsive">
