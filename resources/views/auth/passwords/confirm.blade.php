@@ -29,7 +29,7 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary" style="background: rgb(251,199,193);color: rgb(85,86,88);">
                                     {{ __('Confirm Password') }}
                                 </button>
 

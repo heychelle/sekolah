@@ -25,7 +25,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-
+                                {{-- baca data dengan cara loop --}}
                                 @foreach ($murids as $murid)
                                     <tr>
                                         <td style="text-align: center;">{{ $murid->nis }} </a>
@@ -57,7 +57,6 @@
                                                                     <input type="hidden" name="_method" value="DELETE">
                                                                     <button class="btn btn-primary" type="submit" style="background: rgb(251,199,193); color: rgb(85,86,88);">Iya</button>
                                                                 </form>
-                                                                <!-- <button class="btn btn-primary" style="background: rgb(251,199,193);color: rgb(85,86,88);" type="button">Iya</button> -->
                                                             </div>
                                                         </div>
                                                     </div>
